@@ -1,6 +1,6 @@
 import { GoogleGenAI, Type, GenerateContentResponse } from "@google/genai";
 import { SYSTEM_INSTRUCTION, DOC_SPECS } from "../constants";
-import { Scenario, DocType, DeliveryMethod, HistoryRecord } from "../types";
+import { Scenario, DocType, DeliveryMethod, HistoryRecord } from "./types";
 
 const apiKey = process.env.API_KEY || '';
 const ai = new GoogleGenAI({ apiKey });
