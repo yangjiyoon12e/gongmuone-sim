@@ -1,6 +1,6 @@
 import React from 'react';
-import { GameStats } from '../types';
-import { MAX_STATS } from '../constants';
+import { GameStats } from './types';
+import { MAX_STATS } from './constants';
 import { Activity, Users, Award, Calendar } from 'lucide-react';
 
 interface StatBarProps {
