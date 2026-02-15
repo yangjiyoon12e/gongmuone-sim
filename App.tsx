@@ -1,8 +1,8 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { INITIAL_STATS, MAX_STATS, APPS, TUTORIAL_SCENARIO, DOC_SPECS, PLAYER_PROFILE } from './constants';
 import { GameStats, Scenario, AppId, WindowState, ChatMessage, DocType, DeliveryMethod, PrintedDoc, HistoryRecord } from './types';
-import { generateCitizenScenario, getChatReply } from './services/geminiService';
-import { StatsDisplay } from './components/StatBar';
+import { generateCitizenScenario, getChatReply } from './geminiService';
+import { StatsDisplay } from './StatBar';
 import { 
   Briefcase, Table, MessageCircle, Globe, Mail, FileText, Music,
   X, Minus, Square, Send, User, Loader2, Power, Bell, 
